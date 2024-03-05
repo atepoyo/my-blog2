@@ -6,8 +6,11 @@ read TITLE
 printf "Enter Excerpt: "
 read EXCERPT
 
+printf "Enter Filename: "
+read FILENAME
+
 DATE=$(date +"%Y-%m-%dT%H:%M:%S.%3N")
-FILENAME=$(date +"%Y-%m-%d")
+FILENAME=$FILENAME
 FILEPATH="_posts/$FILENAME.md"
 
 echo "Copying template to $FILEPATH"
