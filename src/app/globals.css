@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    font-size: calc(1rem + 0.25vw);
+    font-size: calc(1rem + 0.2vw);
   }
 
   body {
