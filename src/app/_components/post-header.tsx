@@ -15,9 +15,6 @@ export function PostHeader({ title, date, author }: Props) {
     <>
       <PostTitle>{title}</PostTitle>
       <div className="max-w-3xl mx-auto">
-        <div className="block md:hidden mb-6">
-          <Avatar name={author.name} picture={author.picture} />
-        </div>
         <div className="mb-6 text-lg">
           <DateFormatter dateString={date} />
         </div>
