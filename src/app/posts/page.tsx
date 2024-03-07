@@ -8,6 +8,12 @@ return (
   <main>
     <Container>
       <Header />
+      <p>
+      残念だったな、まだ記事一覧はできていない。
+      </p>
+      <p>
+      まあ残念なのは作者なんですが…。
+      </p>
     </Container>
   </main>
 );

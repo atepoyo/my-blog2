@@ -10,6 +10,10 @@ export default function About() {
       <Container>
         <Header />
         <h1>{pageTitle}</h1>
+        <p>
+        <a href="https://twitter.com/atepoyo">atepoyo</a>
+        が日記や気になったトピックについて書くサイトです。
+      </p>
 
       </Container>
   )
